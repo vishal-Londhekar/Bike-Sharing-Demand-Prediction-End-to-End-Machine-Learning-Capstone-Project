@@ -33,8 +33,6 @@ To forecast hourly bike rental demand using historical weather and seasonal data
    - Bad weather significantly reduces demand
    - Holidays and weekends shift usage patterns
 
-## 📸 Sample Visuals
-*(Insert your correlation heatmap, feature importances, and prediction vs actual plot here)*
 
 ## 💼 Business Value
 - Helps city planners & bike-sharing platforms:
