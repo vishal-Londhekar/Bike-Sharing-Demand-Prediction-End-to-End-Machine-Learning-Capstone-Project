@@ -33,9 +33,13 @@ To forecast hourly bike rental demand using historical weather and seasonal data
    - Bad weather significantly reduces demand
    - Holidays and weekends shift usage patterns
 
-
 ## 💼 Business Value
 - Helps city planners & bike-sharing platforms:
   - Ensure optimal bike allocation by time and location
   - Reduce customer dissatisfaction during peak hours
   - Improve predictive maintenance planning based on usage
+ 
+## 👤 Author
+**Vishal Londhekar**  
+🎓 Certified Data Analyst/Data Scientist | B.Tech in Mechanical Engineering  
+📫 [LinkedIn](https://www.linkedin.com/in/vishal-londhekar)
