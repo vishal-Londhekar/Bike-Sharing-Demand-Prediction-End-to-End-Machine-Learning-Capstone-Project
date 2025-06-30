@@ -1,38 +1,43 @@
-# Regression -     Bike-Sharing-Demand-Prediction-End-to-End-Machine-Learning-Capstone-Project
+# 🚲 Bike Sharing Demand Prediction
 
-### 🚴‍♂️ Project Objectives -
-The goal of this project is to build a robust predictive model using the Seoul Bike Sharing dataset to forecast hourly rental bike demand. By analyzing data from December 2017 to November 2018, which includes rental counts and various environmental factors, the project aims to deliver accurate predictions of hourly bike requirements.
+## 📌 Objective
+To forecast hourly bike rental demand using historical weather and seasonal data with a regression model. This helps optimize bike availability and resource planning.
 
-### 🔍 Key Focus:
-Leveraging advanced machine learning techniques, the model will provide precise forecasts, enabling efficient resource management and allocation. This will help optimize operations and enhance the overall effectiveness of bike-sharing services.
+## 📂 Dataset
+- Source: Kaggle – [Bike Sharing Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
+- Records: ~17,000 hourly data points
+- Features: Date, Hour, Season, Weather, Temperature, Humidity, Windspeed, Holiday, Working Day, Count (target)
 
-### 📊 Outcome:
-Through detailed analysis of historical data, the project strives to support better planning and decision-making for bike rental businesses, ensuring they can meet customer demands effectively while maintaining operational efficiency.
+## 🧰 Tools & Technologies
+- Python, Pandas, NumPy
+- Scikit-learn (Random Forest, Linear Regression)
+- Matplotlib, Seaborn
+- Jupyter Notebook
 
-# Steps Involved 🚴‍♂️📊
-**1. Data Exploration 🔍:**
-Examined the dataset to understand its structure, variables, and overall composition.
+## 🚀 Workflow Summary
+1. 🧹 **Data Cleaning & Feature Engineering**
+   - Handled missing data and converted datetime features
+   - Created new features like "Hour", "Day Type", and "Weekend"
 
-**2. Data Wrangling 🧹:**
-Cleaned and preprocessed the data by addressing missing values, outliers, and inconsistencies to ensure data quality.
+2. 📊 **Exploratory Data Analysis**
+   - Identified peak rental hours and demand trends by day, weather, and season
+   - Visualized correlations and outliers
 
-**3. Exploratory Data Analysis (EDA) 📈:**
-Conducted visual and statistical analysis to uncover patterns, relationships, and distributions in the data.
+3. 🤖 **Modeling**
+   - Trained **Random Forest Regressor** and **Linear Regression**
+   - Chose Random Forest (best R² = **91%**)
+   - Evaluated using MAE, RMSE, and R² score
 
-**4. Hypothesis Testing 🧪:**
-Applied statistical tests to validate assumptions and examine the relationships between variables.
+4. 📈 **Insights**
+   - High rental demand during commuting hours (8-10 AM, 5-7 PM)
+   - Bad weather significantly reduces demand
+   - Holidays and weekends shift usage patterns
 
-**5. Feature Engineering & Data Preprocessing 🔧:**
-Created new features and transformed existing ones to enhance model performance and interpretability.
+## 📸 Sample Visuals
+*(Insert your correlation heatmap, feature importances, and prediction vs actual plot here)*
 
-**6. Machine Learning Model Implementation 🤖:**
-Developed and evaluated machine learning algorithms to predict bike rental demand.
-
-**7. Results ✅:**
-Analyzed model outputs to identify factors influencing bike rental demand and provided accurate demand forecasts.
-
-**8. Conclusion 🎯:**
-Successfully built a predictive model for hourly bike rentals, enabling efficient resource management and better operational planning for bike-sharing services.
-Future enhancements could include exploring additional features, increasing model accuracy, and integrating real-time data for dynamic predictions.
-
-**This workflow provides a robust framework for data-driven decision-making in the bike-sharing industry! 🚲✨**
+## 💼 Business Value
+- Helps city planners & bike-sharing platforms:
+  - Ensure optimal bike allocation by time and location
+  - Reduce customer dissatisfaction during peak hours
+  - Improve predictive maintenance planning based on usage
